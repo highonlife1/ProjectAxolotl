@@ -1,5 +1,5 @@
 discord.py
-opencv-python
+opencv-python-headless
 scikit-learn
 joblib
 numpy
