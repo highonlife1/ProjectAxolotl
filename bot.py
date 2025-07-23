@@ -3,7 +3,8 @@ import os
 import aiohttp
 import asyncio
 
-from config import DISCORD_TOKEN
+DISCORD_TOKEN = os.environ.get("DISCORD_TOKEN")
+
 from ranker import calculate_score, get_rank
 
 intents = discord.Intents.default()
